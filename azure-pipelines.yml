@@ -42,6 +42,10 @@ steps:
 - script: start sl.exe
   displayName: Run_SL_EXE
 
+- script: sl.exe analyze
+  displayName: Run_SL_analyze
+
+
 - script: echo "Hello, world"
   displayName: Test1001
     
