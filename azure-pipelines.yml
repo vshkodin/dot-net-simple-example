@@ -33,7 +33,7 @@ steps:
 #     platform: '$(buildPlatform)'
 #     configuration: '$(buildConfiguration)'
 
-- task: VSBuild@1
+- task: SL test
   inputs:
     solution: '$(solution)'
     platform: '$(buildPlatform)'
