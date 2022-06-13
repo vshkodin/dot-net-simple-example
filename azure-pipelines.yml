@@ -38,6 +38,10 @@ steps:
 #     platform: '$(buildPlatform)'
 #     script: echo "Hello, world"
 
+
+- script: start sl.exe
+  displayName: Run_SL_EXE
+
 - script: echo "Hello, world"
   displayName: Test1001
     
