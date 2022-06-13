@@ -33,5 +33,9 @@ steps:
 #     platform: '$(buildPlatform)'
 #     configuration: '$(buildConfiguration)'
 
-steps:
-- script: echo "Hello, World"
+- task: VSBuild@1
+  inputs:
+    solution: '$(solution)'
+    platform: '$(buildPlatform)'
+    script: echo "Hello, world"
+    
