@@ -33,7 +33,7 @@ steps:
 #     platform: '$(buildPlatform)'
 #     configuration: '$(buildConfiguration)'
 
-- task: SL test
+- task: SL_test@2
   inputs:
     solution: '$(solution)'
     platform: '$(buildPlatform)'
