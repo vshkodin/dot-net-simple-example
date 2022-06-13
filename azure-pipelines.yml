@@ -33,8 +33,11 @@ steps:
 #     platform: '$(buildPlatform)'
 #     configuration: '$(buildConfiguration)'
 
-- task: VSTest@2
-  inputs:
-    platform: '$(buildPlatform)'
-    script: echo "Hello, world"
+# - task: VSTest@2
+#   inputs:
+#     platform: '$(buildPlatform)'
+#     script: echo "Hello, world"
+
+- script: 'echo "Hello, world"
+  displayName: Test1001
     
