@@ -38,6 +38,6 @@ steps:
 #     platform: '$(buildPlatform)'
 #     script: echo "Hello, world"
 
-- script: 'echo "Hello, world"
+- script: echo "Hello, world"
   displayName: Test1001
     
