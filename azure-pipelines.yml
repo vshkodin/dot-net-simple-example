@@ -48,7 +48,7 @@ steps:
 - script: sl.exe auth --no-diagnostic --org "e6227101-08ff-45e9-ae2d-781369efbb50" --token "eyJhbGciOiJSUzUxMiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2MTg4NTczMDAsImlzcyI6IlNoaWZ0TGVmdCIsIm9yZ0lEIjoiZTYyMjcxMDEtMDhmZi00NWU5LWFlMmQtNzgxMzY5ZWZiYjUwIiwidXNlcklEIjoiYjllZjBkMzQtYmYyMi00ZTJmLThiZDgtZDk0MzcwMzY0NTE1Iiwic2NvcGVzIjpbInNlYXRzOndyaXRlIiwiZXh0ZW5kZWQiLCJhcGk6djIiLCJ1cGxvYWRzOndyaXRlIiwibG9nOndyaXRlIiwicGlwZWxpbmVzdGF0dXM6cmVhZCIsIm1ldHJpY3M6d3JpdGUiLCJwb2xpY2llczpjdXN0b21lciIsInBvbGljaWVzOnJlYWQiXX0.RpyNO9nBnJlkd-nGcBUZf6qSC1qjbCnSdf9xHag9XwASHagyu7cIRohqDhP9bVQxxtfYRZtEHbh4L_I3icUfHQKQem1t7vH_aAENQSwIN6xyTZP6kZiDTxp9qhal_z2AhMotnYdwbYK5853ppuiTiFUa--krr_awt6WhFNJP045PXAe7ZfeDWLMIMc7oHGOscneq5lpFkPRZN4dqjK9ftdnYrkURD47T0sr9ZiN4hTg6dxAzKQv_QsOqjXjIe32MnNPoL7dAXrUonXDHaNf45FbAAJtotXGM3TTJz-28rwe_RwDVaOrMTg7c93_r5yo6QbdnKNX7ZRttpzejyt92OQ"
   displayName: Run_SL_auth
   
-- script: sl.exe analyze --csharp --wait --app Azure TestProject.sln
+- script: sl.exe analyze --csharp --dotnet-core --wait --app Azure TestProject.sln
   displayName: Run_SL_analyze
 
 - script: echo "Hello, world"
