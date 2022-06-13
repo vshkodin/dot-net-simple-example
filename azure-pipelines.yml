@@ -41,3 +41,8 @@ steps:
 - script: echo "Hello, world"
   displayName: Test1001
     
+- script: echo %cd%
+  displayName: Test1002
+
+- script: dir
+  displayName: Test1003
