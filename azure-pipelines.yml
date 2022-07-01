@@ -49,7 +49,7 @@ steps:
   displayName: Run_SL_auth
   
   
-- script: sl.exe update
+- script: sl.exe update csharp2cpg
   displayName: SL_update
   
   
